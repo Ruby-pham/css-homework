@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        border: 2px solid blue;
+        width: 70%;
+      }
+      th {
+        background-color: greenyellow;
+        border: 2px solid blue;
+        border-bottom: 2px dotted blue;
+        height: 50px;
+        text-align: left;
+      }
+      td {
+        border-bottom: 1px dotted blue;
+        border-left: 2px solid blue;
+        height: 30px;
+        vertical-align: bottom;
+      }
+      tr:nth-child(even) {
+        background-color: blanchedalmond;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <table>
+        <tr>
+          <th>Last name and middle name</th>
+          <th>First name</th>
+          <th>Save($)</th>
+        </tr>
+        <tr>
+          <td>Nguyen Trung</td>
+          <td>Tuyen</td>
+          <td>110</td>
+        </tr>
+        <tr>
+          <td>Nguyen Thi Xuan</td>
+          <td>Quynh</td>
+          <td>170</td>
+        </tr>
+        <tr>
+          <td>Nguyen Thi Kim</td>
+          <td>Cuc</td>
+          <td>320</td>
+        </tr>
+        <tr>
+          <td>Bui Thanh</td>
+          <td>Trung</td>
+          <td>280</td>
+        </tr>
+      </table>
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+ul {
+  background-color: aqua;
+  padding: 20px;
+}
+ol {
+  background-color: beige;
+  padding: 20px;
+}
+ul li {
+  background-color: blueviolet;
+  color: white;
+  padding: 5px;
+  margin-left: 35px;
+}
+ol li {
+  background-color: pink;
+  color: blue;
+  margin: 5px;
+}
+.title-image {
+  width: 70px;
+}
+.drinks {
+  list-style-type: square;
+  list-style-position: outside;
+}
+.meals {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.meat {
+  list-style-type: upper-roman;
+  list-style-position: outside;
+}
+.vegetables {
+  list-style-type: lower-alpha;
+  list-style-position: inside;
+}

@@ -1,0 +1,74 @@
+/*part 1: css of vertical navbar */
+.sidebar_menu,
+.sub_menu {
+  list-style-type: none;
+  padding-left: 0;
+  display: inline-block;
+  position: relative;
+}
+.bg_dark {
+  background-color: #333;
+  /* color: aliceblue; */
+}
+.nav_link {
+  text-decoration: none;
+  color: aliceblue;
+}
+.sidebar_menu li {
+  padding: 5px;
+}
+.sidebar_menu li:hover,
+.sub_menu li:hover {
+  background-color: red;
+}
+.sub_menu {
+  position: absolute;
+  display: none;
+  margin-left: 5px;
+  top: 0;
+  cursor: pointer;
+}
+.sidebar_menu li:hover .sub_menu {
+  display: inline-block;
+}
+.sidebar {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*part 2: css of horizontal navbar */
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar-menu,
+.sub-menu {
+  margin: 0;
+  padding: 0;
+}
+.sidebar-menu li,
+.sub-menu li {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+.bg-dark {
+  background-color: black;
+}
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+  margin-right: 20px;
+  padding: 10px;
+}
+.sidebar-menu li:hover,
+.sub-menu li:hover {
+  background-color: red;
+}
+.sub-menu {
+  display: none;
+  position: absolute;
+  padding-left: 0;
+}
+.sidebar-menu li:hover .sub-menu {
+  display: inline-block;
+}

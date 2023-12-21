@@ -1,0 +1,14 @@
+h1.option_1 {
+  color: green;
+  margin-left: 35px;
+  line-height: 1.2;
+  font-weight: normal;
+  font-style: oblique;
+}
+p.option_1 {
+  color: blue;
+  margin-left: 35px;
+  font-weight: normal;
+  font-style: oblique;
+}
+

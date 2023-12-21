@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cartoons</title>
+    <style>
+      /* * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      } */
+      header h3 {
+        background-color: lightgray;
+        font-style: italic;
+        color: orangered;
+      }
+      .logo {
+        width: 55px;
+        height: 60px;
+      }
+      .navbar {
+        background-color: lightgray;
+        text-align: center;
+        padding: 0.1px;
+      }
+      .navbar li {
+        list-style-type: none;
+        display: inline;
+      }
+      .nav_link {
+        text-decoration: none;
+        padding-right: 10px;
+        text-align: center;
+        border-right: 1px solid black;
+        color: black;
+      }
+      .nav_link:hover {
+        background-color: blue;
+      }
+      .content_sidebar,
+      .content_video {
+        list-style-type: none;
+      }
+      .sidebar_link {
+        text-decoration: none;
+        float: left;
+      }
+      .content_sidebar:hover {
+        background-color: beige;
+      }
+      .content_sidebar img {
+        width: 30%;
+        height: 30%;
+      }
+      .content_video {
+        position: absolute;
+        /* display: none; */
+        margin-left: 5px;
+        top: 0;
+        cursor: pointer;
+      }
+      .content_sidebar li:hover .content_video {
+        display: inline-block;
+      }
+      .container {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h3>
+        <img
+          class="logo"
+          src="assets/images/unnamed.jpg"
+          alt="Logo phim hoat hinh"
+        />Phim hoat hinh
+      </h3>
+      <div class="navbar">
+        <ul class="navbar_menu">
+          <li>
+            <a
+              class="nav_link"
+              href="https://www.youtube.com/channel/UCbgQWkzUwoFmZUaQ-Jjnwjw"
+              target="_blank"
+              >Phim hoat hinh</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav_link"
+              href="https://youtu.be/c7bsxwrc4vw?si=MtqQm0tj1Z_uouCL"
+              target="_blank"
+              >Phim hoat hinh yeu thich</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav_link"
+              href="https://vi.wikipedia.org/wiki/Danh_s%C3%A1ch_nh%C3%A2n_v%E1%BA%ADt_trong_Doraemon"
+              target="_blank"
+              >Nhan vat hoat hinh</a
+            >
+          </li>
+          <li><a class="nav_link" href="#">Gop y</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <ul class="content_sidebar">
+          <li>
+            <img src="assets/images/th.jpg" alt="doremon" />Doremon
+            <ul class="content_video">
+              <li>
+                <iframe
+                  class="video"
+                  src="https://www.youtube.com/embed/27XBryzJqoA?si=yYQJSihuhrTR6GiZ"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
