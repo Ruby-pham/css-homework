@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, Tahoma;
+  font-size: 12px;
+  background-color: lightgray;
+  box-sizing: border-box;
+}
+.header {
+  height: 100px;
+}
+.logo {
+  border: 1px solid black;
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+.banner {
+  border: 1px solid black;
+  height: 100%;
+  width: calc(100% - 20% - 2px - 2px - 5px);
+  float: left;
+  margin-left: 5px;
+}
+.navbar {
+  height: 30px;
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 5px;
+}
+.main {
+  height: 500px;
+  width: 100%;
+  margin-top: 5px;
+}
+.content_left {
+  width: 15%;
+  height: 500px;
+  /* border: 1px solid black;
+  background-color: lightgray; */
+  float: left;
+}
+.content_center {
+  width: 60%;
+  height: 500px;
+  /* border: 1px solid black;
+  background-color: lightgray; */
+  float: left;
+  margin-left: 5px;
+}
+.content_right {
+  width: calc(100% - 15% - 60% - 2px - 2px - 5px - 2px - 5px);
+  height: 500px;
+  border: 1px solid black;
+  background-color: lightgreen;
+  float: left;
+  margin-left: 5px;
+}
+.footer {
+  height: 30px;
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 5px;
+}
+.left_box1 {
+  height: 30%;
+  border: 1px solid black;
+  background-color: white;
+}
+.left_box2 {
+  height: 50%;
+  border: 1px solid black;
+  margin-top: 5px;
+}
+.center_hotnews,
+.center_photoside {
+  width: calc(50% - 4px);
+  height: 30%;
+  border: 1px solid black;
+  float: left;
+}
+.center_hotnews {
+  margin-right: 5px;
+}
+.center_news {
+  width: calc(33% - 4px);
+  height: 30%;
+  border: 1px solid black;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+.nav_menu,
+.footer_menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav_link,
+.footer_link {
+  text-decoration: none;
+  color: orangered;
+}
+.navbar li,
+.footer li {
+  display: inline-block;
+  border-right: 1px solid black;
+  padding: 8px;
+}
+.navbar li:hover,
+.footer li:hover {
+  background-color: aquamarine;
+}
+.link_search {
+  float: right;
+}
+.link_search a {
+  border: 1px black solid;
+  padding: 5px 35px;
+  border-radius: 30px;
+  text-align: left;
+  color: black;
+}
+
+.note {
+  color: black;
+  margin-right: 805px;
+}
+.header,
+.navbar,
+.left_box1,
+.left_box2,
+.center_hotnews,
+.center_photoside,
+.center_news,
+.footer {
+  background-color: lightyellow;
+}
+.footer_menu li:first-child a {
+  color: black;
+}
+@media screen and (max-width: 1000px) {
+  .content_left {
+    display: none;
+  }
+  .content_center {
+    width: 75%;
+  }
+  .content_center {
+    overflow: scroll;
+  }
+}
